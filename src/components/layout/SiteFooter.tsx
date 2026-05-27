@@ -8,7 +8,6 @@ export function SiteFooter() {
           <Sparkles className="h-4 w-4 text-violet-300" />
           AnimateUI
         </div>
-        <p>Reusable React and Framer Motion components, shipped from Supabase to Vercel.</p>
       </div>
     </footer>
   );
