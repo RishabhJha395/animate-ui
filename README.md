@@ -1,39 +1,112 @@
-# AnimateUI Showcase
+# Animate UI Showcase
 
-A premium React + Vite component showcase inspired by Watermelon UI, Aceternity UI, and Magic UI.
+A modern React-based animated component showcase built with Vite, Tailwind CSS, Framer Motion, and TypeScript.
 
-## Stack
+`Animate UI` is a visually-rich demo app that highlights reusable animated UI components, responsive design, and polished micro-interactions.
 
-- React + Vite + TypeScript
-- Tailwind CSS
-- Framer Motion
-- React Router
-- Supabase Auth, Database, and Storage
-- React Syntax Highlighter
+---
 
-## Local Setup
+## ✨ Features
+
+* 🎨 Animated interface with motion-driven components
+* ⚡ High-performance Vite development experience
+* 🧩 Reusable UI primitives for buttons, inputs, cards, and previews
+* 📱 Fully responsive layout for desktop and mobile
+* 🧠 TypeScript-powered codebase for maintainability
+* 🛠 Configured with Tailwind CSS and utility-based styling
+* 🔌 Optional Supabase/schema backend support for future data flows
+
+---
+
+## 🖼 Preview
+
+Add screenshots, GIFs, or live demo links below to help visitors understand the app at a glance.
+
+```md
+![Animate UI homepage](./screenshots/home.png)
+```
+
+---
+
+## 🚀 Quick Start
 
 ```bash
+git clone https://github.com/your-username/animate-ui.git
+cd animate-ui
 npm install
 npm run dev
 ```
 
-Copy `.env.example` to `.env.local` and fill:
+Open the local URL shown in your terminal to view the app.
 
-```bash
-VITE_SUPABASE_URL=
-VITE_SUPABASE_ANON_KEY=
-VITE_ADMIN_EMAIL=you@example.com
+---
+
+## 📦 Available Scripts
+
+* `npm run dev` - Start the Vite development server
+* `npm run build` - Compile TypeScript and build the production bundle
+* `npm run preview` - Preview the production build locally
+* `npm run lint` - Run ESLint across the project
+
+---
+
+## 🧱 Project Structure
+
+```text
+AnimateUI/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   ├── previews/
+│   │   ├── shared/
+│   │   └── ui/
+│   ├── data/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── types/
+│   └── utils/
+├── supabase/
+│   └── schema.sql
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
-## Supabase Setup
+---
 
-Run `supabase/schema.sql` in your Supabase SQL editor. Create a Google OAuth provider in Supabase Auth, then add your deployed Vercel URL as an allowed redirect URL.
+## 🛠 Tech Stack
 
-Add your email to the database allowlist after running the schema:
+* React 19
+* Vite
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Supabase JS
+* ESLint
 
-```sql
-insert into public.admin_users (email) values ('you@example.com');
-```
+---
 
-The frontend falls back to mock components when Supabase variables are missing, so the UI remains previewable during local development.
+## 📌 Notes
+
+* The app is designed as a UI showcase and developer playground.
+* `supabase/schema.sql` contains the starter database model for optional backend data.
+* Customize the component library in `src/components/ui` and `src/pages`.
+
+---
+
+## 💡 Contributing
+
+Contributions are welcome. Create issues, send PRs, or update the component showcase with new animations and UI patterns.
+
+---
+
+## 📄 License
+
+Feel free to add your license information here.
+
