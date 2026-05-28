@@ -26,6 +26,10 @@ Add screenshots, GIFs, or live demo links below to help visitors understand the 
 ![Animate UI homepage](./screenshots/home.png)
 ```
 
+**Live Demo:**
+
+🔗 https://animate-ui-tau.vercel.app/
+
 ---
 
 ## 🚀 Quick Start
